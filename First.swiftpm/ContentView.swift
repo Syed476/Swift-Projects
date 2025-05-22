@@ -17,7 +17,7 @@ struct MainView: View {
         VStack {
             Text("Hello, world!")
                 .font(.title)
-                .foregroundColor(isBlack ? .black : .white)
+                .foregroundColor(isBlack ? .red : .white)
             
             Button("Toggle Color") {
                 isBlack.toggle()
